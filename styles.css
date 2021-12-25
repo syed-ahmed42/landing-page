@@ -71,6 +71,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 	gap: 30px;
+	margin: 0 25%;
 }
 .middle-top-image{
 	border: 8px;
@@ -117,8 +118,8 @@ button{
 
 .middle-top-image img{
 	border: 5px solid #3882F6;
-	width: 300px;
-	height: 300px;
+	width: 100%;
+	height: auto;
 	flex-shrink: 1;
 	border-radius: 8px;
 }
