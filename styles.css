@@ -25,13 +25,13 @@ body{
 	margin: 0;
 	gap: 8px;
 	list-style-type: none;
-	margin-right: 128px;
+	margin-right: 10%;
 }
 .header-hero{
 	font-size: 24px;
 	color: white;
 	font-weight: 900;
-	margin-left: 128px;
+	margin-left: 13%;
 }
 .top{
 	display: flex;
@@ -46,7 +46,7 @@ body{
 	color: white;
 }
 .top-description{
-	margin-top: -42px;
+	margin-top: -10%;
 }
 .top-left{
 	max-width: 450px;
@@ -66,6 +66,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 5% 0;
 }
 .middle-top-images{
 	display: flex;
@@ -77,11 +78,28 @@ body{
 	border: 8px;
 	border-color: green;
 }
+.middle-top-title{
+	font-weight: 900;
+	font-size: 36px;
+}
 .middle-bottom{
 	background-color: #E5E7EB;
 }
 .middle-bottom-name{
-	text-align: right;
+	text-align: center;
+	margin-top: -15%;
+	margin-right: -38%;
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 5%;
+}
+.middle-bottom-text{
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	margin: 10% 10%;
+	padding: 5% 5%;
+	color: #1F2937;
 }
 .bottom{
 	display: flex;
