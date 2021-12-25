@@ -69,7 +69,12 @@ body{
 }
 .middle-top-images{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	gap: 30px;
+}
+.middle-top-image{
+	border: 8px;
+	border-color: green;
 }
 .middle-bottom{
 	background-color: #E5E7EB;
@@ -108,4 +113,12 @@ button{
 	border: none;
 	padding: 8px 32px; 
 	font-weight: 900;
+}
+
+.middle-top-image img{
+	border: 5px solid #3882F6;
+	width: 300px;
+	height: 300px;
+	flex-shrink: 1;
+	border-radius: 8px;
 }
